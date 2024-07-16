@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algebra Boole'a w komputerach</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif&display=swap">
+
+
+    <!-- <link rel="stylesheet" href="normalize.css" /> -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        class="header__logo"
+        src="https://i.ibb.co/f97N57w/george-boole-portrait-dalle.png"
+        alt="George Boole" />
+      <h1 class="header__title">Algebra Boole'a w&nbsp;komputerach</h1>
+    </header>
+
+    <div class="article">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#whoIsGeorge">Kim jest George Boole?</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#booleAlgebra">Algebra Boole'a</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#LogicOperators">Operatory logiczne</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#booleMeetsTransistor"
+              >Kiedy Boole spotyka tranzystor</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#logicGates">Bramki logiczne</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#firstComputers">Pierwsze komputery</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#theEnd">Ciekawostki</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="main">
+        <section id="whoIsGeorge">
+          <h2 class="section__heading">George Boole</h2>
+          <p>
+            George Boole (1815-1864) był brytyjskim matematykiem i logikiem.
+            Jego prace w dziedzinie logiki matematycznej przyczyniły się do
+            rozwoju algebry Boole'a, która jest stosowana w analizie i
+            manipulacji procesów logicznych. Boole zapoczątkował nową
+            metodologię opisu operacji logicznych za pomocą algebraicznych
+            równań i symboli, co umożliwiło matematyczną analizę systemów
+            logicznych. Jego prace nad algebrą Boole'a miały duży wpływ na
+            rozwój logiki matematycznej i znaczenie dla rozwoju dziedzin takich
+            jak informatyka.
+          </p>
+        </section>
+
+        <section id="booleAlgebra">
+          <h2 class="section__heading">Algebra Boole'a</h2>
+          <p>
+            Algebra Boole'a to matematyczna struktura, która opisuje operacje
+            logiczne na zbiorach elementów logicznych, takich jak prawda (True)
+            i fałsz (False). Algebra Boole'a umożliwia analizę i manipulację
+            logicznymi wyrażeniamiza pomocą operatorów logicznych, takich jak
+            <span class="strong">negacja (NOT)</span>,
+            <span class="strong">koniunkcja (AND)</span> ,
+            <span class="strong">alternatywa (OR)</span> oraz
+            <span class="strong">implikacja (IF-THEN)</span>.
+          </p>
+        </section>
+
+        <section id="LogicOperators">
+          <h2 class="section__heading">Operatory logiczne</h2>
+          <p>
+            <strong class="strong">Negacja (NOT)</strong>: Operator negacji
+            zmienia wartość logiczną na przeciwną. Na przykład NOT True daje
+            False, a NOT False daje True.
+          </p>
+          <p>
+            <strong class="strong">Koniunkcja (AND)</strong>: Operator
+            koniunkcji zwraca True tylko wtedy, gdy oba porównywane elementy są
+            prawdziwe. W przeciwnym razie zwraca False.
+          </p>
+          <p>
+            <strong class="strong">Alternatywa (OR)</strong>: Operator
+            alternatywy zwraca True, jeśli przynajmniej jeden z porównywanych
+            elementów jest prawdziwy. Zwraca False tylko wtedy, gdy oba elementy
+            są fałszywe.
+          </p>
+          <p>
+            <strong class="strong">Implikacja (IF-THEN)</strong>: Operator
+            implikacji jest prawdziwy, jeśli pierwszy element jest fałszywy lub
+            jeśli oba elementy są prawdziwe. Zwraca False tylko wtedy, gdy
+            pierwszy element jest prawdziwy, a drugi jest fałszywy.
+          </p>
+        </section>
+
+        <section id="booleMeetsTransistor">
+          <h2 class="section__heading">Kiedy Boole spotyka tranzystor</h2>
+          <p>
+            W dzisiejszych czasach, w erze zaawansowanych technologii i
+            elektroniki, spotkanie algebra Boole'a z tranzystorem jest momentem
+            kluczowym dla rozwoju nowoczesnych systemów informatycznych. Algebra
+            Boole'a, nazwana na cześć matematyka George'a Boole'a, pozwala na
+            opis logiki binarnej i manipulację logicznymi wartościami: prawda
+            (1) i fałsz (0). Z drugiej strony, tranzystor, mały, ale potężny
+            element elektroniczny, jest podstawowym budulcem współczesnych
+            układów scalonych i mikroprocesorów. Kiedy te dwie potężne idee się
+            łączą, otwiera się świat nieograniczonych możliwości.
+          </p>
+
+          <p>
+            Algebra Boole'a pozwala na przedstawienie różnych operacji
+            logicznych, takich jak koniunkcja (AND), alternatywa (OR) i negacja
+            (NOT), za pomocą prostych równań i zasad. Dzięki temu możemy
+            precyzyjnie modelować złożone zachowania systemów cyfrowych, takich
+            jak komputery, urządzenia mobilne czy automatyka przemysłowa. Jednak
+            bez tranzystora, algebra Boole'a pozostawałaby tylko abstrakcyjnym
+            narzędziem matematycznym.
+          </p>
+
+          <p>
+            Tranzystor, jako podstawowy element elektroniczny, zapewnia nam
+            praktyczne wykonanie operacji logicznych na poziomie sprzętowym.
+            Działa na zasadzie sterowania przepływem prądu w trzech podstawowych
+            konfiguracjach: wzmacniacza (amplifikatora), bramki logicznej (logic
+            gate) oraz pamięci. Dzięki nim, algebra Boole'a staje się fizyczną
+            rzeczywistością, umożliwiając przenoszenie informacji, obliczenia
+            oraz kontrolę nad różnymi urządzeniami.
+          </p>
+
+          <p>
+            Spotkanie algebra Boole'a z tranzystorem dało początek rewolucji
+            informatycznej, otwierając drogę do powstania komputerów i innych
+            zaawansowanych technologii, które zmieniły nasz sposób życia i
+            pracy. Od komunikacji elektronicznej po sztuczną inteligencję, od
+            medycyny po transport, algebra Boole'a i tranzystor są
+            nierozerwalnie związane z postępem technologicznym.
+          </p>
+
+          <p>
+            Dzięki ciągłemu rozwojowi i miniaturyzacji tranzystorów, które
+            prowadzi do powstania układów scalonych o coraz większej gęstości,
+            możliwości wynikające z połączenia algebra Boole'a z tranzystorem
+            nadal rosną. Obecnie mamy do czynienia z zaawansowanymi procesorami,
+            pamięciami flash, inteligentnymi systemami wbudowanymi i wieloma
+            innymi technologicznymi osiągnięciami, które nie byłyby możliwe bez
+            tej synergii.
+          </p>
+
+          <p>
+            W związku z tym, kiedy algebra Boole'a spotyka tranzystor, otwiera
+            się przed nami świat pełen potencjału do dalszych odkryć i
+            innowacji. Ta fascynująca interakcja między matematyką a elektroniką
+            nadal napędza naszą cyfrową rewolucję i otwiera drzwi do nieznanych
+            wcześniej horyzontów, w których tylko wyobraźnia stanowi
+            ograniczenie.
+          </p>
+        </section>
+
+        <section id="logicGates">
+          <h2 class="section__heading">
+            Bramki logiczne: Podstawowe jednostki algebry Boole'a
+          </h2>
+
+          <h3 class="section__subheading">
+            Wprowadzenie do bramek logicznych i ich roli w obwodach cyfrowych
+          </h3>
+
+          <p>
+            Bramki logiczne stanowią fundament algebry Boole'a i są nieodłącznym
+            elementem konstrukcji obwodów cyfrowych. Bramki te pełnią kluczową
+            rolę w przetwarzaniu i manipulacji informacjami w postaci sygnałów
+            logicznych, reprezentujących wartości binarne: prawda (1) i fałsz
+            (0). Ich zastosowanie rozciąga się od prostych układów cyfrowych po
+            zaawansowane mikroprocesory.
+          </p>
+          <p>
+            Podstawowymi typami bramek logicznych są bramki AND, OR i NOT.
+            Bramka AND wykonuje operację logiczną koniunkcji, która zwraca
+            prawdę tylko wtedy, gdy wszystkie jej wejścia są prawdziwe. Bramka
+            OR wykonuje operację logiczną alternatywy, która zwraca prawdę, gdy
+            przynajmniej jedno z jej wejść jest prawdziwe. Bramka NOT natomiast
+            wykonuje operację logiczną negacji, która odwraca wartość logiczną
+            wejścia.
+          </p>
+
+          <div class="table-container">
+            <table class="table">
+              <!-- <caption>Tablica prawdy NOT</caption>   -->
+              <thead class="table__header">
+                <tr>
+                  <th class="table__cell" scope="col">A</th>
+                  <th class="table__cell" scope="col">NOT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table__cell">0</td>
+                  <td class="table__cell">1</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">1</td>
+                  <td class="table__cell">0</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="table">
+              <!-- <caption>Tablica prawdy AND</caption> -->
+              <thead class="table__header">
+                <tr>
+                  <th class="table__cell" scope="col">A</th>
+                  <th class="table__cell" scope="col">B</th>
+                  <th class="table__cell" scope="col">AND</th>
+                </tr>
+              </thead>
+              <tr>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+              </tr>
+              <tr>
+                <td class="table__cell">0</td>
+                <td class="table__cell">1</td>
+                <td class="table__cell">0</td>
+              </tr>
+              <tr>
+                <td class="table__cell">1</td>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+              </tr>
+              <tr>
+                <td class="table__cell">1</td>
+                <td class="table__cell">1</td>
+                <td class="table__cell">1</td>
+              </tr>
+            </table>
+
+            <table class="table">
+              <!-- <caption>Tablica prawdy OR</caption> -->
+              <thead class="table__header">
+                <tr>
+                  <th class="table__cell" scope="col">A</th>
+                  <th class="table__cell" scope="col">B</th>
+                  <th class="table__cell" scope="col">OR</th>
+                </tr>
+              </thead>
+              <tr>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+              </tr>
+              <tr>
+                <td class="table__cell">0</td>
+                <td class="table__cell">1</td>
+                <td class="table__cell">1</td>
+              </tr>
+              <tr>
+                <td class="table__cell">1</td>
+                <td class="table__cell">0</td>
+                <td class="table__cell">1</td>
+              </tr>
+              <tr>
+                <td class="table__cell">1</td>
+                <td class="table__cell">1</td>
+                <td class="table__cell">1</td>
+              </tr>
+            </table>
+          </div>
+
+          <p>
+            Rola bramek logicznych w obwodach cyfrowych polega na realizowaniu
+            różnych operacji logicznych, takich jak dodawanie, odejmowanie,
+            porównywanie czy przekształcanie danych. Bramki te mogą być używane
+            do tworzenia bardziej złożonych funkcji logicznych, takich jak
+            bramki XOR, NAND, NOR i wiele innych. Kombinacje bramek logicznych
+            pozwalają na konstrukcję układów realizujących różnorodne zadania,
+            od prostych decyzji logicznych po zaawansowane operacje
+            arytmetyczno-logiczne.
+          </p>
+          <p>
+            Współcześnie, bramki logiczne są implementowane przy użyciu
+            tranzystorów, które działają jako klucze elektroniczne sterujące
+            przepływem prądu. Miniaturyzacja tranzystorów umożliwiła budowę
+            układów scalonych, które integrują tysiące bramek logicznych na
+            jednym chipie. Dzięki temu możliwe jest tworzenie coraz bardziej
+            zaawansowanych i wydajnych obwodów cyfrowych, które stanowią
+            podstawę współczesnych komputerów, telefonów, systemów wbudowanych i
+            wielu innych urządzeń elektronicznych.
+          </p>
+          <p>
+            Wprowadzenie do bramek logicznych i ich roli w obwodach cyfrowych
+            jest kluczowe do zrozumienia podstawowej architektury i działania
+            komputerów. Pozwala to na budowanie i programowanie układów
+            cyfrowych, które wykonują zadane operacje logiczne i obliczeniowe.
+            Bramki logiczne stanowią fundamentalne narzędzie inżynierii
+            cyfrowej, które pozwala nam na konstrukcję systemów, które zmieniają
+            nasz sposób pracy, komunikacji i rozrywki.
+          </p>
+
+          <h3 class="section__subheading">
+            Tablica prawdy: reprezentacja działania bramek logicznych
+          </h3>
+
+          <p>
+            Tablica prawdy jest sposobem reprezentacji działania bramek
+            logicznych poprzez zestawienie wszystkich możliwych kombinacji wejść
+            i odpowiadających im wyników na wyjściu. Ta tabelaryczna forma
+            prezentacji pomaga zrozumieć, jak bramki logiczne przetwarzają
+            sygnały logiczne.
+          </p>
+          <p>
+            Dla każdej bramki logicznej, tablica prawdy zawiera wszystkie
+            możliwe kombinacje wejść, a dla każdej kombinacji wskazuje wartość
+            logiczną wyniku na wyjściu. Przykładowo, dla bramki AND z dwoma
+            wejściami, tablica prawdy będzie miała cztery wiersze,
+            reprezentujące wszystkie możliwe kombinacje wejść 0 i 1, oraz
+            odpowiednie wyniki na wyjściu.
+          </p>
+          <p>
+            Tablica prawdy umożliwia analizę i zrozumienie działania bramek
+            logicznych, identyfikowanie wzorców i prawidłowości oraz określanie,
+            jak zmieniają się wartości logiczne w zależności od stanu wejść.
+            Jest to niezwykle przydatne narzędzie przy projektowaniu i analizie
+            obwodów cyfrowych, a także przy konstruowaniu bardziej złożonych
+            funkcji logicznych opartych na kombinacjach bramek.
+          </p>
+          <p>
+            Tablica prawdy stanowi podstawę do tworzenia równań logicznych,
+            układania
+            <a
+              class="section__link"
+              href="https://pl.wikipedia.org/wiki/Metoda_Karnaugha"
+              target="_blank"
+              rel="noopener noreferrer">
+              tabel Karnaugh'a</a
+            >
+            i projektowania optymalnych obwodów cyfrowych. Dzięki niej możemy
+            precyzyjnie opisać i analizować działanie bramek logicznych, co jest
+            niezwykle istotne w inżynierii cyfrowej i konstrukcji komputerów.
+          </p>
+
+          <h3 class="section__subheading">
+            Implementacja bramek logicznych za pomocą tranzystorów
+          </h3>
+
+          <a
+            >Tranzystory odgrywają kluczową rolę w implementacji bramek
+            logicznych w obwodach cyfrowych. Dzięki swojej zdolności do kontroli
+            przepływu prądu, tranzystory są wykorzystywane jako klucze
+            elektroniczne, umożliwiające realizację operacji logicznych.</a
+          >
+          <p>
+            W przypadku bramki logicznej AND, tranzystory są połączone w taki
+            sposób, że prąd może płynąć przez wyjście tylko wtedy, gdy wszystkie
+            wejścia są w stanie logicznym prawda (1). Wykorzystanie tranzystorów
+            w konfiguracji równoległej umożliwia osiągnięcie tego efektu, gdzie
+            tylko wtedy, gdy wszystkie tranzystory są w stanie przewodzenia,
+            prąd może przejść przez wyjście bramki AND.
+          </p>
+          <p>
+            W przypadku bramki logicznej OR, tranzystory są połączone w taki
+            sposób, że prąd może płynąć przez wyjście, gdy co najmniej jedno z
+            wejść jest w stanie logicznym prawda (1). Wykorzystanie tranzystorów
+            w konfiguracji szeregowej umożliwia osiągnięcie tego efektu, gdzie
+            przepływ prądu jest blokowany tylko wtedy, gdy wszystkie tranzystory
+            są w stanie blokowania przewodzenia.
+          </p>
+          <p>
+            Bramka logiczna NOT jest implementowana za pomocą pojedynczego
+            tranzystora pracującego w trybie inwertera. Prąd może płynąć przez
+            wyjście tylko wtedy, gdy tranzystor jest w stanie blokowania
+            przewodzenia, co odwraca wartość logiczną wejścia.
+          </p>
+          <p>
+            Implementacja bramek logicznych za pomocą tranzystorów umożliwia
+            budowę bardziej złożonych układów cyfrowych. Miniaturyzacja
+            tranzystorów pozwala na integrację tysięcy bramek logicznych na
+            pojedynczym układzie scalonym (IC), co znacznie zwiększa ich
+            funkcjonalność i wydajność. Dzięki temu, tranzystory stanowią
+            podstawową jednostkę, na której opiera się technologia komputerowa i
+            elektronika współczesnego świata.
+          </p>
+          <p>
+            Implementacja bramek logicznych za pomocą tranzystorów to niezwykle
+            istotny aspekt inżynierii cyfrowej, który umożliwia realizację
+            operacji logicznych w obwodach cyfrowych. To dzięki tej
+            implementacji możliwe jest tworzenie zaawansowanych systemów, takich
+            jak procesory, pamięci i inne układy scalone, które wykorzystujemy w
+            komputerach, urządzeniach mobilnych i wielu innych technologicznych
+            aplikacjach.
+          </p>
+
+          <h3 class="section__subheading">
+            Bramki logiczne jako składniki większych układów cyfrowych
+          </h3>
+
+          <p>
+            Bramki logiczne pełnią istotną rolę jako składniki większych układów
+            cyfrowych, umożliwiając konstrukcję bardziej zaawansowanych funkcji
+            logicznych i kompleksowych systemów. Dzięki nim, możliwe jest
+            tworzenie różnorodnych układów cyfrowych, takich jak rejestrów,
+            przerzutników, multiplekserów czy liczników.
+          </p>
+          <p>
+            Bramki logiczne są łączone i komponowane w sposób umożliwiający
+            realizację określonych operacji logicznych, zgodnie z wymaganiami
+            danego układu. Kombinacje bramek logicznych pozwalają na
+            konstruowanie większych funkcji logicznych, takich jak dekodery,
+            multiplekserów czy rejestrów przesuwnych. Na przykład, układ
+            multipleksera może być zbudowany z bramek logicznych, które służą do
+            wyboru odpowiedniego sygnału na wyjściu w zależności od określonych
+            wejść sterujących.
+          </p>
+          <p>
+            Bramki logiczne są także wykorzystywane w projektowaniu układów
+            arytmetyczno-logicznych (ALU), które stanowią serce procesora
+            komputerowego. ALU wykonuje operacje arytmetyczne, jak dodawanie i
+            odejmowanie, oraz operacje logiczne, takie jak koniunkcja czy
+            alternatywa. W budowie ALU wykorzystuje się różne kombinacje bramek
+            logicznych, które umożliwiają realizację różnorodnych operacji.
+          </p>
+          <p>
+            Dzięki bramkom logicznym możliwe jest tworzenie układów cyfrowych o
+            coraz większej złożoności, umożliwiających przetwarzanie danych,
+            sterowanie i wykonywanie różnych operacji. Bramki logiczne stanowią
+            podstawową jednostkę, która umożliwia konstrukcję logiczną i
+            obliczeniową w systemach cyfrowych. Ich wykorzystanie w większych
+            układach cyfrowych pozwala na tworzenie zaawansowanych
+            technologicznie rozwiązań, które mają szerokie zastosowanie w
+            dziedzinach takich jak informatyka, telekomunikacja, automatyka i
+            wiele innych.
+          </p>
+        </section>
+
+        <section id="firstComputers">
+          <h2 class="section__heading">Pierwsze komputery</h2>
+
+          <p>
+            Wykorzystanie algebry Boole'a odegrało kluczową rolę w rozwoju
+            pierwszych komputerów. Dzięki matematycznym podstawom algebraicznym
+            George'a Boole'a, pionierzy informatyki, takie jak Alan Turing i
+            John von Neumann, byli w stanie opracować logiczne bramki i układy,
+            które umożliwiły przetwarzanie informacji w formie binarnej. To
+            zaawansowane myślenie logiczne stanowiło fundament dla komputerów,
+            takich jak ENIAC (1946), UNIVAC I (1951) i IBM 701 (1952), które
+            były pierwszymi komercyjnie dostępnymi maszynami. Te pionierskie
+            komputery otworzyły drogę do dzisiejszych zaawansowanych systemów
+            informatycznych. Oto kilka przykładów pierwszych komputerów i ich
+            daty wprowadzenia:
+          </p>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr class="table__header">
+                  <th class="table__cell" scope="col" colspan="2">MODEL</th>
+                  <th class="table__cell" scope="col">ROK</th>
+                  <th class="table__cell" scope="col">AUTOR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">
+                    <a
+                      class="table__link"
+                      href="https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >ABC</a
+                    ><br /><span class="smaller"
+                      >(Atanasoff-Berry Computer)</span
+                    >
+                  </td>
+                  <td class="table__cell">1939</td>
+                  <td class="table__cell">
+                    John Vincent Atanasoff with the help of graduate student
+                    Clifford Berry
+                  </td>
+                </tr>
+
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">Z1</td>
+                  <td class="table__cell">1938</td>
+                  <td class="table__cell" rowspan="3">
+                    <a
+                      class="table__link"
+                      href="https://en.wikipedia.org/wiki/Konrad_Zuse"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Konrad Zuse</a
+                    >
+                  </td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">Z2</td>
+                  <td class="table__cell">1940</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">Z3</td>
+                  <td class="table__cell">1941</td>
+                </tr>
+
+                <tr class="table__row">
+                  <td class="table__cell" rowspan="2">
+                    <a
+                      class="table__link"
+                      href="https://en.wikipedia.org/wiki/Colossus_computer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Colossus</a
+                    ><br /><span class="smaller"></span>
+                  </td>
+                  <td class="table__cell">Mark 1</td>
+                  <td class="table__cell">1943</td>
+                  <td class="table__cell" rowspan="2">Tommy Flowers</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__cell">Mark 2</td>
+                  <td class="table__cell">1944</td>
+                </tr>
+
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">
+                    <a
+                      class="tableLink"
+                      href="https://en.wikipedia.org/wiki/ENIAC"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >ENIAC</a
+                    ><br /><span class="smaller"
+                      >(Electronic Numerical Integrator and Computer)</span
+                    >
+                  </td>
+                  <td class="table__cell">1945</td>
+                  <td class="table__cell">
+                    John Mauchly and J. Presper Eckert
+                  </td>
+                </tr>
+
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">
+                    <a
+                      class="tableLink"
+                      href="https://en.wikipedia.org/wiki/UNIVAC_I"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >UNIVAC I</a
+                    ><br /><span class="smaller"
+                      >(Universal Automatic Computer I)</span
+                    >
+                  </td>
+                  <td class="table__cell">1951</td>
+                  <td class="table__cell">
+                    J. Presper Eckert and John Mauchly<br /><span
+                      class="smaller"
+                      >(inventors of the ENIAC)</span
+                    >
+                  </td>
+                </tr>
+
+                <tr class="table__row">
+                  <td class="table__cell" colspan="2">
+                    <a
+                      class="tableLink"
+                      href="https://en.wikipedia.org/wiki/IBM_701"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >IBM 701</a
+                    >
+                  </td>
+                  <td class="table__cell">1952</td>
+                  <td class="table__cell">
+                    Jerrier Haddad and Nathaniel Rochester
+                  </td>
+                </tr>
+
+                <tr class="tableRow">
+                  <td class="table__cell" colspan="2">
+                    <a
+                      class="tableLink"
+                      href="https://pl.wikipedia.org/wiki/Analizator_R%C3%B3wna%C5%84_R%C3%B3%C5%BCniczkowych"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >ARR</a
+                    ><br /><span class="smaller"
+                      >(Analizator Równań Różniczkowych)</span
+                    >
+                  </td>
+                  <td class="table__cell">1954</td>
+                  <td class="table__cell">Leon Łukaszewicz</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="theEnd">
+          <h2 class="section__heading">Ciekawostki</h2>
+          <h3 class="section__subheading">Robal</h3>
+          <p>
+            Wraz z pierwszymi komputerami oczywiście pojawiły się pierwsze
+            błędy. Pojęcie "bug" w dziedzinie informatyki odnosi się do błędu
+            lub nieprawidłowego działania w programie komputerowym. Słowo "bug"
+            zostało po raz pierwszy użyte przez Grace Hopper, jedną z
+            najważniejszych postaci w historii programowania. Miało to miejsce w
+            1947 roku, gdy pracowała nad komputerem Mark II w laboratoriach
+            Harvard University.
+          </p>
+          <p>
+            Pewnego razu, gdy programy nie działały poprawnie, Hopper i jej
+            zespół zaczęli poszukiwać przyczyny problemu. Okazało się, że
+            przyczyną był... owad! Konkretnie był to ćmok, który utknął w jednym
+            z przekaźników komputera. Hopper i jej współpracownicy zdjęli owada
+            z maszyny i umieścili go w swoim dzienniku, podpisując go jako
+            "first actual case of bug being found" (pierwszy rzeczywisty
+            przypadek odnalezienia błędu). Termin "bug" zaczął być powszechnie
+            używany w kontekście oznaczania wszelkich błędów i nieprawidłowości
+            w programach komputerowych.
+          </p>
+
+          <!-- link do galerii zdjęć
+          https://postimg.cc/gallery/c4zKPPb/8772aa4e -->
+
+          <div class="image-container">
+            <img
+              class="image"
+              src="https://i.postimg.cc/ncKQDdZK/cf6256b7045d7024360a30536b2b5ba0.jpg"
+              alt="Bug!" />
+          </div>
+          <p>
+            Od tamtego czasu, termin "bug" stał się powszechnie używany w branży
+            informatycznej, aby opisać problemy i błędy w programach. To słowo
+            jest teraz integralną częścią słownika programistów i użytkowników
+            komputerów na całym świecie, przypominając nam o historii i
+            przygodach, które legły u podstaw rozwoju technologii, a także o
+            znaczeniu precyzji i staranności w tworzeniu oprogramowania.
+          </p>
+
+          <h3 class="section__subheading">Pierwsza mysz</h3>
+          <p>
+            Pierwsza mysz komputerowa została wynaleziona i zbudowana przez
+            Douglasa Engelbarta w latach 60. XX wieku. Przedstawiona publicznie
+            w 1968 roku podczas słynnej prezentacji "The Mother of All Demos",
+            ta mała, drewniana mysz była znaczącym przełomem w historii
+            interakcji człowiek-komputer. Dzięki myszy użytkownik mógł poruszać
+            wskaźnikiem na ekranie w bardziej intuicyjny sposób niż za pomocą
+            klawiatury. Choć początkowo mysz spotkała się z pewnymi oporami ze
+            strony przemysłu komputerowego, wkrótce stała się nieodłącznym
+            elementem komputerów osobistych i zapoczątkowała nową erę interakcji
+            człowieka z maszyną. Dzisiejsze myszy komputerowe przybrały różne
+            formy i ewoluowały w kierunku bardziej zaawansowanych urządzeń,
+            takich jak myszy optyczne i bezprzewodowe, jednak to pierwsze
+            urządzenie było kamieniem milowym w rozwoju interfejsów użytkownika
+            w komputerach.
+          </p>
+          <div class="image-container">
+            <img
+              class="image image--small"
+              src="https://i.postimg.cc/JzPDTGsG/i00.jpg"
+              alt="Mouse1" />
+            <img
+              class="image image--small"
+              src="https://i.postimg.cc/9QWwtGF6/i01.jpg"
+              alt="Mouse2" />
+          </div>
+        </section>
+      </main>
+
+      <!-- end of article -->
+    </div>
+
+    <footer class="footer">
+      <div><span class="bigger">&copy;</span> Jacek Gruchalski 2023</div>
+    </footer>
+
+    <div class="brightness-controll__container">
+      <input
+        class="brightness-controll__slider"
+        type="range"
+        id="brightnessSlider"
+        min="15"
+        max="100"
+        value="80"
+        oninput="brightness()" />
+    </div>
+  </body>
+</html>
